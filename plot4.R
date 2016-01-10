@@ -1,6 +1,6 @@
 # Plot4 creation
 setwd("~/R_Coursera_Course/ExploratoryDatanAnalysis")
-#source("LoadProjectData.R")
+source("LoadProjectData.R")
 
 png(file="plot4.png", width=480, height=480)
 

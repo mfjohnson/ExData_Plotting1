@@ -2,7 +2,7 @@
 #   Course Project #1
 #   Author: Mark Johnson
 setwd("~/R_Coursera_Course/ExploratoryDatanAnalysis")
-electric <- read.csv("data/household_power_consumption.txt",header = TRUE, sep=";", colClasses = "character")
+electric <- read.csv("data/household_power_consumption.txt",header = TRUE, sep=";", colClasses = "character", na.strings="?")
 electric$tmp <- paste(electric$Date, electric$Time, sep=" ")
 electric$recordDate <- strptime(electric$tmp,format="%d/%m/%Y %H:%M:%S")
 

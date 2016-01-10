@@ -1,6 +1,6 @@
 # Plot3 creation
 setwd("~/R_Coursera_Course/ExploratoryDatanAnalysis")
-#source("LoadProjectData.R")
+source("LoadProjectData.R")
 
 png(file="plot3.png", width=480, height=480)
 with(sampleData, {
