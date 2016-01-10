@@ -1,3 +1,13 @@
+## Running the submitted Assignment
+To run the submitted assignment execute the R script 'RunAll.R'.  This script loads the data and then calls each of the sub Plot creation scripts to create each of the submitted png files.  To run one of the plots separately, just uncomment the '#source("LoadProjectData.R")' instruction at the top of the desired plot file.  
+
+The submitted project source files include:
+- RunAll.R - The master execution script which calls the data loader and each of the plot creation subscripts.
+- LoadProjectData.R - Loads the source input data from the 'data' directory (not included in the checkin due to size challenges).  This script also cleans the data so it is the correct type and format for proper data plotting.
+- Plot[1-4].R - The R scripts necessary to generate the project specified plots and save the plot output as a PNG file in the root directory.
+- Plot[1-4].png - The plot[1-4].R plot PNG output file matching with the course specification.
+
+
 ## Introduction
 
 This assignment uses data from
